@@ -49,6 +49,8 @@ body {
 
 .site-nav .link {
   color: var(--secondary-bg-color);
+  font-style: normal;
+  font-weight: 500;
 }
 
 .site-nav .link:hover,
@@ -58,11 +60,22 @@ body {
 
 .site-cont .link {
   color: var(--body-text-color);
+  font-style: normal;
 }
 
 .site-cont .link:hover,
 .site-cont .link:focus {
   color: var(--action-color);
+}
+
+.site-nav > a {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* Hero */
