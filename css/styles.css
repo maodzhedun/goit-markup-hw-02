@@ -1,11 +1,22 @@
 :root {
+/* bg color */
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2E2F42;
+  --light-bg-color: #F4F4FD;
+  
 }
 
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: #434455;
 }
+
+/* color page */
 
 /* bg-color #ffffff */
 
@@ -18,3 +29,54 @@ body {
 /* action color #404BBF */
 
 /* cloud color #F4F4FD */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+/* Site nav */
+
+.site-nav .link {
+  color: #4D5AE5;
+}
+
+.site-nav .top-logo {
+  color: #2E2F42;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #404BBF;
+}
+
+.site-nav .logo {
+  color:#4D5AE5 ;
+}
+
+.site-cont .link { 
+  color: #434455;
+}
+
+.site-cont .link:hover,
+.site-cont .link:focus {
+  color: #404BBF;
+}
+
+/* Hero */
+
+
+
+/* Footer */
+
+.footer .link {
+  color: #4D5AE5;
+}
+
+.footer .under-logo {
+color: #F4F4FD;
+}
