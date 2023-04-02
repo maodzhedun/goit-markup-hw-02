@@ -83,6 +83,10 @@ body {
   color: var(--action-color);
 }
 
+.site-cont {
+  font-style: normal;
+}
+
 /* .site-nav > a {
   font-family: 'Raleway';
   font-style: normal;
@@ -192,10 +196,24 @@ body {
 
 .footer .link {
   color: var(--primary-brand-color);
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer .under-logo {
   color: var(--light-bg-color);
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer {
