@@ -121,7 +121,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--primary-bg-color);
   cursor: pointer;
-  background-color: var(--action-color);
+  background-color: var(--primary-brand-color);
 }
 
 /* Section */
@@ -159,11 +159,12 @@ body {
 
 .button {
   font-family: inherit;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--body-text-color);
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background-color: var(--light-bg-color);
 }
 /* action filter */
 
@@ -181,6 +182,12 @@ body {
 }
 
 /* Section card */
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
 
 .section-card {
   font-family: inherit;
