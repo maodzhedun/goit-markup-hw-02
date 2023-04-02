@@ -124,6 +124,11 @@ body {
   background-color: var(--primary-brand-color);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--action-color);
+}
+
 /* Section */
 
 .section-title {
